@@ -1,0 +1,127 @@
+.pomo-page {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.pomo-header h1 {
+  font-size: 1.8rem;
+  font-weight: 800;
+  margin-bottom: 4px;
+}
+
+.pomo-header p {
+  color: var(--text-muted);
+}
+
+.pomo-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 650px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.pomo-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-xl);
+  padding: 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  text-align: center;
+}
+
+.mode-switch {
+  display: flex;
+  background: var(--bg-input);
+  padding: 4px;
+  border-radius: 20px;
+  gap: 4px;
+}
+
+.pomo-tab {
+  padding: 8px 18px;
+  border-radius: 16px;
+  border: none;
+  background: transparent;
+  color: var(--text-muted);
+  font-weight: 700;
+  font-size: 0.88rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.pomo-tab.active {
+  background: var(--accent-gradient);
+  color: #fff;
+}
+
+.timer-display {
+  font-size: 5rem;
+  font-weight: 800;
+  font-family: 'JetBrains Mono', monospace;
+  letter-spacing: 2px;
+  color: var(--text-main);
+  background: var(--bg-secondary);
+  padding: 20px 40px;
+  border-radius: var(--radius-xl);
+  border: 2px solid var(--accent-primary);
+  box-shadow: 0 0 30px var(--accent-glow);
+}
+
+.timer-controls {
+  display: flex;
+  gap: 12px;
+}
+
+.ambient-sounds-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-xl);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.ambient-sounds-card h3 {
+  font-size: 1.1rem;
+}
+
+.ambient-sounds-card p {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+
+.sound-buttons-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.sound-btn {
+  padding: 14px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-color);
+  background: var(--bg-input);
+  color: var(--text-main);
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.sound-btn:hover {
+  border-color: var(--accent-primary);
+}
+
+.sound-btn.active {
+  background: var(--accent-gradient);
+  color: #fff;
+  border-color: var(--accent-primary);
+  box-shadow: 0 4px 15px var(--accent-glow);
+}

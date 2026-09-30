@@ -1,0 +1,100 @@
+.explain-page {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.explain-header h1 {
+  font-size: 1.8rem;
+  font-weight: 800;
+  margin-bottom: 4px;
+}
+
+.explain-header p {
+  color: var(--text-muted);
+}
+
+.explain-input-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-xl);
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.explain-input-card label {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--text-muted);
+}
+
+.mode-selector {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  flex-wrap: wrap;
+}
+
+.mode-buttons {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.mode-btn {
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: 1px solid var(--border-color);
+  background: var(--bg-input);
+  color: var(--text-main);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.mode-btn.active {
+  background: var(--accent-gradient);
+  color: #fff;
+  border-color: var(--accent-primary);
+}
+
+.explain-loading {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.explain-result-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.explain-result-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  padding: 20px 24px;
+  border-radius: var(--radius-xl);
+}
+
+.explain-result-header > div:first-child {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.explain-result-header span {
+  font-size: 2rem;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 8px;
+}

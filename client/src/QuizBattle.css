@@ -1,0 +1,181 @@
+.battle-page {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.battle-header h1 {
+  font-size: 1.8rem;
+  font-weight: 800;
+  margin-bottom: 4px;
+}
+
+.battle-header p {
+  color: var(--text-muted);
+}
+
+.battle-input-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-xl);
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.battle-btn {
+  background: linear-gradient(135deg, #ef4444 0%, #f59e0b 100%);
+}
+
+.battle-loading {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+/* ARENA DUEL */
+.arena-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.duel-scoreboard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  padding: 20px 32px;
+  border-radius: var(--radius-xl);
+}
+
+.player-score {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.avatar {
+  font-size: 2.2rem;
+}
+
+.player-name {
+  font-size: 0.75rem;
+  font-weight: 800;
+  color: var(--text-subtle);
+  display: block;
+}
+
+.score-val {
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+
+.vs-badge {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: var(--danger);
+  background: rgba(239, 68, 68, 0.15);
+  padding: 8px 18px;
+  border-radius: 50%;
+}
+
+.battle-q-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-xl);
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.q-progress {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--accent-primary);
+  text-transform: uppercase;
+}
+
+.battle-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.battle-opt-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-color);
+  background: var(--bg-input);
+  color: var(--text-main);
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.battle-opt-btn.correct-battle {
+  background: var(--success-bg);
+  border-color: var(--success);
+}
+
+.battle-opt-btn.wrong-battle {
+  background: var(--danger-bg);
+  border-color: var(--danger);
+}
+
+.tags-group {
+  display: flex;
+  gap: 6px;
+}
+
+.user-tag, .bot-tag {
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 10px;
+}
+
+.user-tag { background: var(--accent-primary); color: #fff; }
+.bot-tag { background: var(--warning); color: #000; }
+
+.round-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  padding-top: 14px;
+  border-top: 1px solid var(--border-color);
+}
+
+.victory-screen {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.victory-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-xl);
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.victory-icon {
+  font-size: 5rem;
+}
+
+.final-scores {
+  display: flex;
+  gap: 24px;
+  font-size: 1.2rem;
+}

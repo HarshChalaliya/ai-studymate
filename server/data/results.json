@@ -1,0 +1,35 @@
+[
+  {
+    "_id": "1790422234240",
+    "topic": "seo",
+    "score": 0,
+    "totalQuestions": 5,
+    "percentage": 0,
+    "weakQuestions": [
+      "Which meta tag directive instructs search engine robots not to index a webpage and also not to follow any links on it?",
+      "Which HTTP status code should be used to indicate to search engines that a page has permanently moved to a new URL?",
+      "What is the primary purpose of implementing Schema.org structured data on a website?",
+      "In technical SEO, what is the primary function of the rel=\"canonical\" link element?",
+      "Which Core Web Vitals metric measures visual stability by tracking how much page content unexpectedly shifts during the loading phase?"
+    ],
+    "date": "2026-09-26T11:30:34.240Z"
+  },
+  {
+    "_id": "1790421041164",
+    "topic": "os",
+    "score": 2,
+    "totalQuestions": 10,
+    "percentage": 20,
+    "weakQuestions": [
+      "Which algorithm is commonly used in operating systems for deadlock avoidance by verifying the safety state before allocating requested resources?",
+      "Belady's Anomaly refers to the phenomenon where increasing the number of page frames results in an increase in page faults. Which page replacement algorithm can exhibit this anomaly?",
+      "What is the primary cause of the 'convoy effect' in CPU scheduling?",
+      "In a virtual memory system, what condition directly triggers thrashing?",
+      "How does the SCAN (elevator) disk scheduling algorithm service pending I/O requests?",
+      "In a paged memory system with a Translation Lookaside Buffer (TLB), TLB access time is 10 ns, memory access time is 100 ns, and the TLB hit ratio is 90%. What is the Effective Memory Access Time (EMAT)?",
+      "What is a defining architectural characteristic of a microkernel compared to a monolithic kernel?",
+      "What is a major limitation of pure User-Level Threads (ULT) over Kernel-Level Threads (KLT)?"
+    ],
+    "date": "2026-09-26T11:10:41.164Z"
+  }
+]

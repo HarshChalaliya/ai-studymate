@@ -1,0 +1,201 @@
+.viva-page {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.viva-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.viva-header h1 {
+  font-size: 1.8rem;
+  font-weight: 800;
+  margin-bottom: 4px;
+}
+
+.viva-header p {
+  color: var(--text-muted);
+}
+
+.speech-toggle-btn {
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: 1px solid var(--border-color);
+  background: var(--bg-card);
+  color: var(--text-muted);
+  font-size: 0.82rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.speech-toggle-btn.active {
+  background: var(--success-bg);
+  color: var(--success);
+  border-color: var(--success);
+}
+
+.viva-input-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-xl);
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.viva-loading {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.examiner-avatar {
+  font-size: 4rem;
+  width: 80px;
+  height: 80px;
+  background: rgba(99, 102, 241, 0.15);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 16px auto;
+  border: 2px solid var(--accent-primary);
+}
+
+.viva-stage {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.examiner-card {
+  display: flex;
+  gap: 20px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-xl);
+  padding: 28px;
+  align-items: flex-start;
+}
+
+.examiner-card .examiner-avatar {
+  margin: 0;
+  flex-shrink: 0;
+}
+
+.examiner-dialog {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.examiner-tag {
+  font-size: 0.75rem;
+  font-weight: 800;
+  color: var(--accent-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.viva-question {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--text-main);
+  line-height: 1.4;
+}
+
+.examiner-comment {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.student-response-card {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-xl);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.student-response-card label {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--text-muted);
+}
+
+.student-response-card textarea {
+  width: 100%;
+  background: var(--bg-input);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 16px;
+  color: var(--text-main);
+  font-size: 0.95rem;
+  font-family: inherit;
+  outline: none;
+}
+
+.response-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* SCORECARD */
+.viva-scorecard {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-xl);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.scorecard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.avg-badge {
+  font-size: 0.9rem;
+  background: var(--accent-primary);
+  color: #fff;
+  padding: 6px 14px;
+  border-radius: 20px;
+}
+
+.history-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.history-entry {
+  background: var(--bg-input);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 0.9rem;
+}
+
+.entry-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.score-badge {
+  color: var(--success);
+}

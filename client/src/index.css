@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f7fb;
+}
+
+.app {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  background: #111827;
+  color: white;
+  padding: 25px 18px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar h2 {
+  margin-bottom: 35px;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+nav button,
+.logout {
+  border: none;
+  background: transparent;
+  color: #d1d5db;
+  padding: 13px;
+  text-align: left;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+nav button:hover,
+nav .active {
+  background: #2563eb;
+  color: white;
+}
+
+.logout {
+  margin-top: auto;
+  background: #374151;
+}
+
+.main {
+  flex: 1;
+  padding: 35px;
+}
+
+header h1 {
+  color: #111827;
+  margin-bottom: 8px;
+}
+
+header p {
+  color: #6b7280;
+}
+
+.hero {
+  margin-top: 30px;
+  background: #2563eb;
+  color: white;
+  border-radius: 18px;
+  padding: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero h2 {
+  font-size: 30px;
+  margin-bottom: 12px;
+}
+
+.hero p {
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+.primary-btn {
+  margin-top: 20px;
+  border: none;
+  background: white;
+  color: #2563eb;
+  padding: 12px 22px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.robot {
+  font-size: 90px;
+}
+
+.section-title {
+  margin: 35px 0 20px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.06);
+}
+
+.card span {
+  font-size: 35px;
+}
+
+.card h3 {
+  margin: 15px 0 10px;
+}
+
+.card p {
+  color: #6b7280;
+  font-size: 14px;
+  line-height: 1.5;
+  min-height: 65px;
+}
+
+.card button {
+  margin-top: 15px;
+  border: none;
+  background: #eff6ff;
+  color: #2563eb;
+  padding: 9px 15px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .sidebar {
+    width: 210px;
+  }
+}
+
+@media (max-width: 600px) {
+  .sidebar {
+    display: none;
+  }
+
+  .main {
+    padding: 20px;
+  }
+
+  .hero {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .robot {
+    margin-top: 20px;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}

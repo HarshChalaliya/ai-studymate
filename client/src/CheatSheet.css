@@ -1,0 +1,51 @@
+.cheatsheet-page {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.cheatsheet-header h1 {
+  font-size: 1.8rem;
+  font-weight: 800;
+  margin-bottom: 4px;
+}
+
+.cheatsheet-header p {
+  color: var(--text-muted);
+}
+
+.cheatsheet-input-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-xl);
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.cheatsheet-loading {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.cheatsheet-result {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.result-header-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  padding: 20px 24px;
+  border-radius: var(--radius-xl);
+}
+
+.cheatsheet-paper {
+  border-left: 6px solid var(--accent-primary);
+  background: var(--bg-secondary);
+}
